@@ -1,0 +1,138 @@
+@tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  @layer base {
+    :root {
+      --background: 0 0% 100%;
+      --foreground: 222.2 84% 4.9%;
+
+      --card: 0 0% 100%;
+      --card-foreground: 222.2 84% 4.9%;
+
+      --popover: 0 0% 100%;
+      --popover-foreground: 222.2 84% 4.9%;
+
+      --primary: 222.2 47.4% 11.2%;
+      --primary-foreground: 210 40% 98%;
+
+      --secondary: 210 40% 96.1%;
+      --secondary-foreground: 222.2 47.4% 11.2%;
+
+      --muted: 210 40% 96.1%;
+      --muted-foreground: 215.4 16.3% 46.9%;
+
+      --accent: 210 40% 96.1%;
+      --accent-foreground: 222.2 47.4% 11.2%;
+
+      --destructive: 0 84.2% 60.2%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 214.3 31.8% 91.4%;
+      --input: 214.3 31.8% 91.4%;
+      --ring: 222.2 84% 4.9%;
+
+      --radius: 0.5rem;
+    }
+
+    .dark {
+      --background: 222.2 84% 4.9%;
+      --foreground: 210 40% 98%;
+
+      --card: 222.2 84% 4.9%;
+      --card-foreground: 210 40% 98%;
+
+      --popover: 222.2 84% 4.9%;
+      --popover-foreground: 210 40% 98%;
+
+      --primary: 210 40% 98%;
+      --primary-foreground: 222.2 47.4% 11.2%;
+
+      --secondary: 217.2 32.6% 17.5%;
+      --secondary-foreground: 210 40% 98%;
+
+      --muted: 217.2 32.6% 17.5%;
+      --muted-foreground: 215 20.2% 65.1%;
+
+      --accent: 217.2 32.6% 17.5%;
+      --accent-foreground: 210 40% 98%;
+
+      --destructive: 0 62.8% 30.6%;
+      --destructive-foreground: 210 40% 98%;
+
+      --border: 217.2 32.6% 17.5%;
+      --input: 217.2 32.6% 17.5%;
+      --ring: 212.7 26.8% 83.9%;
+    }
+  }
+
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
+  }
+
+
+  .rd-1{
+    background-image: radial-gradient(rgb(242, 246, 139),rgb(139, 209, 235));
+  
+  }
+  .rd-2{
+    background-image: radial-gradient(rgb(246, 151, 249),rgb(129, 103, 170));
+  
+  }
+  .rd-3{
+    background-image: radial-gradient(rgb(78, 181, 117),rgb(205, 244, 219));
+  
+  }
+  
+  .rd-4{
+    background-image: radial-gradient(rgb(144, 216, 125),rgb(139, 209, 235));
+  
+  }
+  .rd-5{
+    background-image: radial-gradient(rgb(113, 244, 249),rgb(149, 173, 239));
+  
+  }
+  .rd-6{
+    background-image: radial-gradient(rgb(223, 225, 165),rgb(227, 140, 158));
+  
+  }
+  .rd-7{
+    background-image: radial-gradient(rgb(243, 109, 109),rgb(92, 110, 232));
+  
+  }
+  .rd-8{
+    background-image: radial-gradient(rgb(180, 128, 56),rgb(187, 181, 119));
+  
+  }
+  
+  .rd-9{
+    background-image: radial-gradient(rgb(70, 160, 60),rgb(139, 171, 235));
+  
+  }
+  .rd-10{
+    background-image: radial-gradient(rgb(240, 190, 229),rgb(188, 68, 178));
+  
+  }
+  .rd-11{
+    background-image: radial-gradient(rgb(103, 165, 55),rgb(184, 114, 179));
+  
+  }
+  .rd-12{
+    background-image: radial-gradient(rgb(193, 100, 195),rgb(30, 80, 134));
+  
+  }
+  .rd-13{
+    background-image: radial-gradient(rgb(207, 53, 76),rgb(97, 79, 131));
+  
+  }
+  
+  .rd-14{
+    background-image: radial-gradient(rgb(242, 246, 139),rgb(75, 73, 45));
+  
+  }
+ 
